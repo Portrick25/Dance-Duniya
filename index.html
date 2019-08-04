@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 600, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>www.danceduniya.in</title>
+	<link rel="stylesheet" type="text/css" href="main.css ">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!-- Navigation Bar -->
+	<div class="container">
+		<a class="active nava" href="#sect"><b class="fa fa-home" style="font-size: 80px;border:white 0px;"></b></a>
+		<a  class="nava" href="#section2" style="  margin-left:5% ;"><i style="font-size: 50px;">about</i></a>
+		<a class="nava" href="#section3"style="  margin-left:5% ;"> <i style="font-size: 50px;">gallery</i></a>
+		<a class="nava" href="#section4"style="  margin-left:5% ;"> <i style="font-size: 50px;">Testimonials</i></a>
+		<a class="nava" href="#section5"style="  margin-left:5% ;"><i style="font-size: 50px;">contact</i></a>
+		<a class="nava2" href="#section6"><i style="font-size: 50px;">join us!</i></a>
+	</div>
+	<div class="main" id="sect">
+		<section>
+	<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides">
+  	<div class="fade">
+    <div class="numbertext">1 / 5</div></div>
+    <img src="images/D-gall.jpg" style="width:100%; height:auto;">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides">
+  	<div class="fade">
+    <div class="numbertext">2 / 5</div></div>
+    <img src="images/D-gall2.jpg" style="width:100%; height:auto;">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides">
+  	<div class="fade">
+    <div class="numbertext">3 / 5</div></div>
+    <img src="images/D-gall3.jpg" style="width:100%; height:auto;">
+    <div class="text">Caption Three</div>
+  </div>
+  <div class="mySlides">
+  	<div class="fade">
+    <div class="numbertext">4 / 5</div></div>
+    <img src="images/D-gall4.jpg" style="width:100%; height:auto;">
+    <div class="text">Caption Four</div>
+  </div>
+  <div class="mySlides">
+  	<div class="fade">
+    <div class="numbertext">5 / 5</div></div>
+    <img src="images/D-gall5.jpg" style="width:100%; height:auto;">
+    <div class="text">Caption Five</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+</section>
+</div>
+<div class="main" id="section2">
+  <section style="background-color:transparent;">
+  	<h1 style="font-size: 5em;color: white;"><i>About</i></h1>
+  	<p style="text-align: left;color: white;font-size: 2em;width: 50%;margin: 1em;">	
+  		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  	</p>
+  	<p style="color: white;font-size: 2em;width: 50%;left:50%;margin: 1em;">
+  			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  	</p>
+  </section>
+</div>
+<h1><i style="font-size: 5em;color: white;margin:auto;">Gallery</i></h1>
+<div class="main" id="section3">
+  <section>
+  	
+  	<div class="row"> 
+  <div class="column">
+    <img src="Images2/681029.jpg" style="width:100%">
+    <img src="Images2/681043.jpg" style="width:100%">
+    <img src="Images2/681059.jpg" style="width:100%">
+    <img src="Images2/681068.jpg" style="width:100%">
+    <img src="Images2/681074.jpg" style="width:100%">
+  
+  </div>
+   <div class="column">
+    <img src="Images2/681224.jpg" style="width:100%">
+    <img src="Images2/681232.jpg" style="width:100%">
+    <img src="Images2/681242.jpg" style="width:100%">
+    <img src="Images2/681248.jpg" style="width:100%">
+    <img src="Images2/681263.jpg" style="width:100%">
+  
+  </div>
+   <div class="column">
+    <img src="Images2/681282.jpg" style="width:100%">
+    <img src="Images2/681313.jpg" style="width:100%">
+    <img src="Images2/681314.jpg" style="width:100%">
+    <img src="Images2/681315.jpg" style="width:100%">
+    <img src="Images2/681317.jpg" style="width:100%">
+  
+  </div>
+   <div class="column">
+    <img src="Images2/681359.jpg" style="width:100%">
+    <img src="Images2/681362.jpg" style="width:100%">
+    <img src="Images2/681320.jpg" style="width:100%">
+    <img src="Images2/681190.jpg" style="width:100%">
+  
+  </div>
+ 
+</div>
+  </section>
+</div>
+<div class="main" id="section4">
+	<section style="background-color: transparent;">
+		<h1 style="font-size: 6em;color: white;background-color: transparent;"><i>Testimonials</i></h1>
+		<div class="row2">
+			<div class="column2">
+				<div style="float: left;">
+				<img src="Images2/male-avatar.png" alt="hip-hop dancer" style="width:50%;height:50%;border-radius: 50%;border:solid black 1px;background-color: white;">
+    			<img src="Images2/female-avatar.png" alt="Owner" style="width:50%;height:50%;border-radius: 50%;border:solid black 1px">	
+    		</div>
+			</div>
+			<div class="column2">
+				<div style="float: right;">
+				<img src="Images2/male-avatar.png" alt="classical dancer" style="width:50%;height:50%;border-radius: 50%;border:solid black 1px;float: right;background-color: white">
+    			<img src="Images2/female-avatar.png" alt="bollywood style-dancer" style="width:50%;height:50%;border-radius: 50%;border:solid black 1px;float: right;">	
+			</div>
+		</div>
+		</div>
+	</section>
+</div>
+<div class="main" id="section5">
+  <section style="width: 100%;height:auto;background-color: #1f1e1e;opacity: 0.8;">
+  	<i style="color: white;font-size: 6em;">Contact</i><br>
+  	<div class="cont">
+  		<div class="subcont">
+   <i>	
+  		<a href="#" class="fa fa-envelope" style="text-decoration: none;color: white;">Info@D2.org</a>
+   </i>
+</div>
+	<div class="subcont">
+  	<i>
+  		<a href="#" class="fa fa-facebook" style="text-decoration: none; "></a></i>
+</div>
+  		<div class="subcont">
+  	<i>
+  		<a href="www.youtube.com/dance duniya" class="fa fa-youtube" style=" text-decoration: none;"></a>
+  	</i>
+  </div>
+  		</div>
+  	</div>
+  </section>
+</div>
+<div class="main" id="section6">
+  <section style="background-color:black;text-align: center;">
+  	<i style="font-size: 6em;color: white;">Join Us</i><br>
+  	<form method="post" name="joinus" action="mail.php" onsubmit="return validateForm()">
+  		<input type="email" name="mail" label="enter email ID" placeholder="E-mail"style="font-size: 2em;background-color: #d0d1cf" required>&nbsp;&nbsp;&nbsp;
+  		<input type="button" name="button" value="GO" placeholder="Join us" style="font-size: 2em;font-style: bold; height: 2.5em;width: 2.5em;border-radius: 50%;background-color: #3bfc0f;color: white; border:green 1px;">
+  	</form><br>
+  </section>
+</div>
+<!--javascript for slideshow-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+function validateForm() {
+  var x = document.forms["joinus"]["E-mail"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</body>
+</html>
