@@ -8,31 +8,41 @@ body{
     { position: fixed;
       width: 100%;
       background-color:#030305;
-      font-size: 80px;
+      font-size:;
       overflow: auto;
-      margin: 0;
+      
 
     }
-    .ca{
-      width:50px;
-      height: 0;
+    #section2{
+      font-size: 45px;
+    }
+    #s-section2{
+      font-size: 70px;
+    }
+        #s-sect3{
+      font-size: 70px;
     }
 .nava
 { width: auto;
+  font-size: 50px;
   float: left;
+  margin-left:15px;
   text-decoration: none;
   background-color: transparent;
   color:#fcfcff;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .nava2{
-  width: 15%;
-  padding-left: 3%;
+  width: auto;
+  font-size: 50px;
+  margin-right:5px;
   float: right;
   text-decoration: none;
   background-color: transparent;
   color:#fcfcff;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
  .nava a:hover{
   background-color: #18c947;
@@ -43,13 +53,171 @@ body{
 .active{
   background-color: #050505;
 }
+@media screen and (max-width: 800px) {
+  .nava
+{ width: auto;
+  font-size: 30px;
+  float: left;
+  margin-left:9px;
+  text-decoration: none;
+  background-color: transparent;
+  color:#fcfcff;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.nava2{
+  width: auto;
+  font-size:30px;
+  margin-right:9px;
+  float: right;
+  text-decoration: none;
+  background-color: transparent;
+  color:#fcfcff;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+    #s-section2{
+      font-size: 40px;
+    }
+        #section2{
+      font-size: 25px;
+    }
+    #s-sect3{
+      font-size: 40px;
+    }
+}
+.container
+    { position: fixed;
+      width: 100%;
+      background-color:#030305;
+      font-size:;
+      overflow: auto;
+      
+
+    }
+    #section2{
+      font-size: 45px;
+    }
+    #s-section2{
+      font-size: 70px;
+    }
+        #s-sect3{
+      font-size: 70px;
+    }
+.nava
+{ width: auto;
+  font-size: 50px;
+  float: left;
+  margin-left:15px;
+  text-decoration: none;
+  background-color: transparent;
+  color:#fcfcff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nava2{
+  width: auto;
+  font-size: 50px;
+  margin-right:5px;
+  float: right;
+  text-decoration: none;
+  background-color: transparent;
+  color:#fcfcff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+ .nava a:hover{
+  background-color: #18c947;
+}
+ .container a:hover{
+  background-color: #18c947;
+}
+.active{
+  background-color: #050505;
+}
+@media screen and (max-width: 300px) {
+	 #section2{
+      font-size: 15px;
+    }
+    #s-section2{
+      font-size: 20px;
+    }
+        #s-sect3{
+      font-size: 20px;
+    }
+  .nava
+{ width: auto;
+  font-size: 10px;
+  float: left;
+  margin-left:2px;
+  text-decoration: none;
+  background-color: transparent;
+  color:#fcfcff;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.nava2{
+  width: auto;
+  font-size:10px;
+  margin-right:2px;
+  float: right;
+  text-decoration: none;
+  background-color: transparent;
+  color:#fcfcff;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+    #s-section2{
+      font-size: 5px;
+    }
+        #section2{
+      font-size: 8px;
+    }
+    #s-sect3{
+      font-size: 12px;
+    }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+      #s-section2{
+      font-size: 25px;
+    }
+        #section2{
+      font-size: 10px;
+    }
+        #s-sect3{
+      font-size: 25px;
+    }
+ .nava
+{ width: auto;
+  float: left;
+  font-size: 10px;
+  margin-left:5px;
+  text-decoration: none;
+  background-color: transparent;
+  color:#fcfcff;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.nava2{
+  width: auto;
+  font-size: 10px;
+  margin-right:5px;
+  float: right;
+  text-decoration: none;
+  background-color: transparent;
+  color:#fcfcff;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   width: 90%;
   margin: auto;
-  padding-top:150px;
+  padding-top:100px;
 }
 img {vertical-align: middle;}
 /* Hide the images by default */
@@ -63,7 +231,7 @@ img {vertical-align: middle;}
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
+  
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -87,10 +255,10 @@ img {vertical-align: middle;}
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 3em;
+  font-size: 30px;
   padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  position: all;
+  bottom:;
   width: 100%;
   text-align: center;
 }
@@ -137,6 +305,150 @@ img {vertical-align: middle;}
   from {opacity: .4} 
   to {opacity: 1}
 }
+@media screen and (max-width: 800px) {
+.slideshow-container {
+  width: 90%;
+  margin: auto;
+  padding-top:5%;
+}
+img {vertical-align: middle;}
+/* Hide the images by default */
+.mySlides{
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 5%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom:4px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 8px;
+  padding: 8px 12px;
+  position: absolute;
+  
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 0.7em;
+  width: 0.7em;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .slideshow-container {
+  width: 90%;
+  margin: auto;
+  padding-top:8%;
+}
+img {vertical-align: middle;}
+/* Hide the images by default */
+.mySlides{
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 5%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 10px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom:2px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 5px;
+  padding: 8px 12px;
+  position: absolute;
+  
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 0.4em;
+  width: 0.4em;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
@@ -153,13 +465,38 @@ section {
 #section3{
   background-color: white;
   height: auto;
+  font-size: 20px;
 
 }
 #section4{
   background-color: transparent;
   height: auto;
+  font-size: 20px;
 }
-
+@media screen and (max-width: 800px) {
+#section3{
+   background-color: white;
+  height: auto;
+  font-size: 10px;
+}
+#section4{
+  background-color: transparent;
+  height: auto;
+  font-size: 10px;
+}
+}
+@media screen and (max-width: 600px) {
+#section3{
+   background-color: white;
+  height: auto;
+  font-size: 6px;
+}
+#section4{
+  background-color: transparent;
+  height: auto;
+  font-size: 6px;
+}
+}
 
 .header {
   text-align: center;
@@ -256,6 +593,7 @@ section {
   width: 100%;
   margin: auto;
   height: auto;
+  font-size: 70px;
 
 }
 .subcont{
@@ -263,6 +601,78 @@ float: left;
 width: 33.33%;
 font-size: 50px;
 background-color: #1f1e1e;opacity: 0.8;
+}
+#s-sub{
+  font-size: 50px;
+}
+@media screen and (max-width: 800px) {
+.cont{
+  width: 100%;
+  margin: auto;
+  height: auto;
+  font-size:50px;
+
+}
+#s-sub{
+  font-size: 30px;
+}
+.subcont{
+float: left;
+width: 33.33%;
+font-size: 30px;
+background-color: #1f1e1e;opacity: 0.8;
+}
+#section6{
+  background-color: ;
+  text-align: center;
+  float:left;
+  width: 100%;
+  height: auto;
+  font-size: 30px;
+}
+#join{
+  font-size: 8px;
+}
+#s-sect5{
+  font-size: 40px;
+  width: 100%;height:auto;background-color: #1f1e1e;opacity: 0.8;
+}
+
+}
+@media screen and (max-width: 300px) {
+.cont{
+  width: 100%;
+  margin: auto;
+  height: auto;
+  font-size:5px;
+
+}
+#s-sect5{
+  font-size: 8px;
+  width: 100%;height:auto;background-color: #1f1e1e;opacity: 0.8;
+}
+#s-sub{
+  padding-top: 1px;
+  font-size: 5px;
+}
+.subcont{
+float: left;
+width: 33.33%;
+font-size: 7px;
+background-color: #1f1e1e;opacity: 0.8;
+}
+
+#section6{
+  background-color: ;
+  text-align: center;
+  float:left;
+  width: 100%;
+  height: auto;
+  font-size: 10px;
+}
+#join{
+  font-size: 3px;
+}
 }
 .fa {
   text-decoration: none;
@@ -276,16 +686,7 @@ background-color: #1f1e1e;opacity: 0.8;
 
 .fa-facebook {
   background:blue;
-  color: white;
-
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google {
+}.fa-google {
   background: #dd4b39;
   color: white;
 }
@@ -321,11 +722,17 @@ background-color: #1f1e1e;opacity: 0.8;
   color: white;
 }
 #section5{
-  background-color: ;
+  
+  background-color: #1f1e1e ;
+  opacity: 0.7;
   text-align: center;
   float:left;
   width: 100%;
   height: auto;
+}
+#s-sect5{
+  font-size: 70px;
+  width: 100%;height:auto;background-color: #1f1e1e;opacity: 0.8;
 }
 #section6{
   background-color: ;
@@ -333,4 +740,115 @@ background-color: #1f1e1e;opacity: 0.8;
   float:left;
   width: 100%;
   height: auto;
+  font-size: 50px;
+}
+#join{
+  font-size: 15px;
+}
+@media screen and (max-width: 500px) {
+  .slideshow-container {
+  width: 90%;
+  margin: auto;
+  padding-top:8%;
+}
+img {vertical-align: middle;}
+/* Hide the images by default */
+.mySlides{
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 5%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 10px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom:2px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 5px;
+  padding: 8px 12px;
+  position: absolute;
+  
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 0.4em;
+  width: 0.4em;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.main {
+ height:100%;
+}
+
+section {
+  min-height: auto;
+}
+/*Gallery*/
+#section3{
+  background-color: white;
+  height: auto;
+  font-size: 20px;
+
+}
+#section4{
+  background-color: transparent;
+  height: auto;
+  font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+#section3{
+   background-color: white;
+  height: auto;
+  font-size: 10px;
+}
+#section4{
+  background-color: transparent;
+  height: auto;
+  font-size: 10px;
+}
 }
