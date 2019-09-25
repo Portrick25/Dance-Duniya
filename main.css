@@ -2,257 +2,76 @@ html{
   background-color: #022626
 }
 body{
-  margin:0;
-} 
-.container
-    { position: fixed;
-      width: 100%;
-      background-color:#030305;
-      font-size:;
-      overflow: auto;
-      
-
-    }
-    #section2{
-      font-size: 45px;
-    }
-    #s-section2{
-      font-size: 70px;
-    }
-        #s-sect3{
-      font-size: 70px;
-    }
-.nava
-{ width: auto;
-  font-size: 50px;
-  float: left;
-  margin-left:15px;
-  text-decoration: none;
-  background-color: transparent;
-  color:#fcfcff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.nava2{
-  width: auto;
-  font-size: 50px;
-  margin-right:5px;
-  float: right;
-  text-decoration: none;
-  background-color: transparent;
-  color:#fcfcff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
- .nava a:hover{
-  background-color: #18c947;
-}
- .container a:hover{
-  background-color: #18c947;
-}
-.active{
-  background-color: #050505;
-}
-@media screen and (max-width: 800px) {
-  .nava
-{ width: auto;
-  font-size: 30px;
-  float: left;
-  margin-left:9px;
-  text-decoration: none;
-  background-color: transparent;
-  color:#fcfcff;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-.nava2{
-  width: auto;
-  font-size:30px;
-  margin-right:9px;
-  float: right;
-  text-decoration: none;
-  background-color: transparent;
-  color:#fcfcff;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-    #s-section2{
-      font-size: 40px;
-    }
-        #section2{
-      font-size: 25px;
-    }
-    #s-sect3{
-      font-size: 40px;
-    }
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0
 }
 .container
-    { position: fixed;
-      width: 100%;
-      background-color:#030305;
-      font-size:;
-      overflow: auto;
-      
+    { 
+          position: fixed;
+          width: 100%;
+          background-color:#030305;
+          overflow: auto;
+          
+    }
 
-    }
-    #section2{
-      font-size: 45px;
-    }
-    #s-section2{
-      font-size: 70px;
-    }
-        #s-sect3{
-      font-size: 70px;
-    }
+
+
 .nava
-{ width: auto;
-  font-size: 50px;
-  float: left;
-  margin-left:15px;
-  text-decoration: none;
-  background-color: transparent;
-  color:#fcfcff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.nava2{
-  width: auto;
-  font-size: 50px;
-  margin-right:5px;
-  float: right;
-  text-decoration: none;
-  background-color: transparent;
-  color:#fcfcff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
- .nava a:hover{
-  background-color: #18c947;
-}
- .container a:hover{
-  background-color: #18c947;
-}
-.active{
-  background-color: #050505;
-}
-@media screen and (max-width: 300px) {
-	 #section2{
-      font-size: 15px;
-    }
-    #s-section2{
-      font-size: 20px;
-    }
-        #s-sect3{
-      font-size: 20px;
-    }
-  .nava
-{ width: auto;
-  font-size: 10px;
-  float: left;
-  margin-left:2px;
-  text-decoration: none;
-  background-color: transparent;
-  color:#fcfcff;
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
-.nava2{
-  width: auto;
-  font-size:10px;
-  margin-right:2px;
-  float: right;
-  text-decoration: none;
-  background-color: transparent;
-  color:#fcfcff;
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
-    #s-section2{
-      font-size: 5px;
-    }
-        #section2{
-      font-size: 8px;
-    }
-    #s-sect3{
-      font-size: 12px;
-    }
-}
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-      #s-section2{
-      font-size: 25px;
-    }
-        #section2{
-      font-size: 10px;
-    }
-        #s-sect3{
-      font-size: 25px;
-    }
- .nava
-{ width: auto;
-  float: left;
-  font-size: 10px;
-  margin-left:5px;
-  text-decoration: none;
-  background-color: transparent;
-  color:#fcfcff;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-.nava2{
-  width: auto;
-  font-size: 10px;
-  margin-right:5px;
-  float: right;
-  text-decoration: none;
-  background-color: transparent;
-  color:#fcfcff;
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
-}
-* {box-sizing:border-box}
+  { 
+      font-size: 40px;
+      float: left;
+      padding-left:1%;
+      padding-right: 1%;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-decoration: none;
+      background-color: transparent;
+      color:#fcfcff;
+      padding-top: auto;
+      padding-bottom: auto;
+  }
 
-/* Slideshow container */
-.slideshow-container {
+.nava2
+    {
+        width: auto;
+        font-size: 40px;
+        padding-right:2%;
+        padding-left: 2%;
+         padding-top: 5px;
+      padding-bottom: 5px;
+        float: right;
+        text-decoration: none;
+        background-color: transparent;
+        color:#fcfcff;
+        padding-top: auto;
+        padding-bottom:auto;
+    }
+.nava a:hover
+    {
+      background-color: #18c947;
+    }
+
+.container a:hover
+    {
+      background-color: #18c947;
+    }
+
+.slideshow-container{
+  padding-top: 8%;
   width: 90%;
   margin: auto;
-  padding-top:100px;
-}
-img {vertical-align: middle;}
-/* Hide the images by default */
-.mySlides{
-  display: none;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+.mySlides{}
 
-/* Position the "next button" to the right */
-.next {
-  right: 5%;
-  border-radius: 3px 0 0 3px;
-}
+                            
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+
 
 /* Caption text */
+
 .text {
   color: #f2f2f2;
   font-size: 30px;
@@ -305,198 +124,81 @@ img {vertical-align: middle;}
   from {opacity: .4} 
   to {opacity: 1}
 }
-@media screen and (max-width: 800px) {
-.slideshow-container {
-  width: 90%;
-  margin: auto;
-  padding-top:5%;
-}
-img {vertical-align: middle;}
-/* Hide the images by default */
-.mySlides{
-  display: none;
-}
+                            /* Position the "next button" to the right */
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
 
-/* Position the "next button" to the right */
-.next {
-  right: 5%;
-  border-radius: 3px 0 0 3px;
-}
+.next 
+    {
+      right: 5%;
+      top:60%;
+      border-radius: 16px 0 0 16px;
+      padding: 2%;
+      position: absolute;
+      color: white;
+      float: right;
+      transition: background-color 0.6s ease;
+      cursor: pointer;
+    }
+.prev 
+    {
+      left: 5%;
+      top: 60%;
+      border-radius: 16px 0 0 16px;
+      padding: 2%;
+      position: absolute;
+      color: white;
+      float: left;
+      transition: background-color 0.6s ease;
+      cursor: pointer;
+    }
+
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+.prev:hover, .next:hover
+     {
+        background-color:black;
+        color: white;
+        opacity: 0.8;
+      }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 20px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom:4px;
-  width: 100%;
-  text-align: center;
-}
+                                          /* About */
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 8px;
-  padding: 8px 12px;
-  position: absolute;
-  
-}
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 0.7em;
-  width: 0.7em;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-}
+#section2
+    {
+      font-size: 35px;
+      width: 98%;margin: auto;
+      color: #353831;
+    }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-  .slideshow-container {
-  width: 90%;
-  margin: auto;
-  padding-top:8%;
-}
-img {vertical-align: middle;}
-/* Hide the images by default */
-.mySlides{
-  display: none;
-}
+#s-section2
+    {
+      font-size: 70px;
+      color: white;
+      padding-left: 2%;
+    }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 10px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
 
-/* Position the "next button" to the right */
-.next {
-  right: 5%;
-  border-radius: 3px 0 0 3px;
-}
+                                          /* Gallery */
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 10px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom:2px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 5px;
-  padding: 8px 12px;
-  position: absolute;
-  
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 0.4em;
-  width: 0.4em;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-.main {
- height:100%;
-}
-
-section {
-  min-height: auto;
-}
-/*Gallery*/
-#section3{
+ 
+ #section3{
   background-color: white;
   height: auto;
+  width: 98%;
+  margin: auto;
   font-size: 20px;
 
 }
-#section4{
-  background-color: transparent;
-  height: auto;
-  font-size: 20px;
-}
-@media screen and (max-width: 800px) {
-#section3{
-   background-color: white;
-  height: auto;
-  font-size: 10px;
-}
-#section4{
-  background-color: transparent;
-  height: auto;
-  font-size: 10px;
-}
-}
-@media screen and (max-width: 600px) {
-#section3{
-   background-color: white;
-  height: auto;
-  font-size: 6px;
-}
-#section4{
-  background-color: transparent;
-  height: auto;
-  font-size: 6px;
-}
-}
+#s-sect3
+    {
+      font-size: 70px;
+      color: white;
+      padding-left: 2%;
+    }
+
+
 
 .header {
   text-align: center;
@@ -505,7 +207,7 @@ section {
 
 .row {
    background-color: white;
-   width: 95%;
+   width: 98%;
    margin: auto;
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -516,8 +218,8 @@ section {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
   max-width: 25%;
   padding: 0 4px;
 }
@@ -528,23 +230,24 @@ section {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+
+
+
+
+                                            /* testimonial */
+
+#testh{
+  font-size: 60px;
+  color: white;
+  padding-left: 2%;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+ #section4{
+  background-color:#8df7f4;
+  width: 90%;
+  margin: auto;
+  color: white;
+}                                           
 .row2 {
   width: 90%;
   margin: auto;
@@ -557,10 +260,11 @@ section {
 
 /* Create four equal columns that sits next to each other */
 .column2 {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
+  -ms-flex: 45%; /* IE10 */
+  flex: 45%;
   max-width: 50%;
   padding: 0 20px;
+  margin: auto;
 
 }
 
@@ -568,27 +272,36 @@ section {
   margin-top: 8px;
   vertical-align: middle;
   margin: 50px;
+  width: 90%;
+}
+#icons{
+  border-radius:50%;
+  height: 300px;
+  width: 300px;
+  border:solid black 2px;
+}
+
+
+
+
+                                      /*  contact  */
+
+#s-sect5{
+  font-size: 70px;
+  width: 100%;height:auto;background-color: #1f1e1e;
+  color: white;
+}
+
+#section5{
+  position:relative;
+  background-color: #1f1e1e ;
+  opacity: 0.7;
+  text-align: center;
+  float:left;
   width: 100%;
-}
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column2 {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+  height: auto;
 }
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column2 {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-<!--contact-->
 .cont{
   width: 100%;
   margin: auto;
@@ -596,97 +309,79 @@ section {
   font-size: 70px;
 
 }
-.subcont{
-float: left;
-width: 33.33%;
-font-size: 50px;
-background-color: #1f1e1e;opacity: 0.8;
+#sub{
+  padding-bottom: 10px;
+  width: 20%;
+  float: left;
+  text-align: center;
 }
-#s-sub{
-  font-size: 50px;
-}
-@media screen and (max-width: 800px) {
-.cont{
-  width: 100%;
-  margin: auto;
-  height: auto;
-  font-size:50px;
 
-}
-#s-sub{
-  font-size: 30px;
-}
-.subcont{
-float: left;
-width: 33.33%;
-font-size: 30px;
-background-color: #1f1e1e;opacity: 0.8;
-}
+
+
+                                              /* join us */
+
+
 #section6{
-  background-color: ;
+  background-color:#2d2e2d ;
   text-align: center;
   float:left;
   width: 100%;
   height: auto;
+  font-size: 70px;
+}
+#us{
+  font-size: 70px;
+  color: white;
+}
+.box{
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 2%;
+  border:solid black 2px;
+}
+#hub{
+  width: 80%;
+  margin:auto;
+  border:solid black 2px;
   font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-#join{
-  font-size: 8px;
-}
-#s-sect5{
+#h-hub{
+  width:50%;
+  margin: auto;
+  border:solid black 1px;
   font-size: 40px;
-  width: 100%;height:auto;background-color: #1f1e1e;opacity: 0.8;
-}
-
-}
-@media screen and (max-width: 300px) {
-.cont{
-  width: 100%;
-  margin: auto;
-  height: auto;
-  font-size:5px;
-
-}
-#s-sect5{
-  font-size: 8px;
-  width: 100%;height:auto;background-color: #1f1e1e;opacity: 0.8;
-}
-#s-sub{
-  padding-top: 1px;
-  font-size: 5px;
-}
-.subcont{
-float: left;
-width: 33.33%;
-font-size: 7px;
-background-color: #1f1e1e;opacity: 0.8;
-}
-
-#section6{
-  background-color: ;
-  text-align: center;
-  float:left;
-  width: 100%;
-  height: auto;
-  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #36e370;
+  color: red;
 }
 #join{
-  font-size: 3px;
+  font-size: 30px;
 }
+.copy{
+  background-color: black;
 }
+
+
+                                                  /* logos  */
+
+
 .fa {
   text-decoration: none;
-  
-
-}
+  }
 
 .fa:hover {
     opacity: 0.7;
 }
 
 .fa-facebook {
-  background:blue;
-}.fa-google {
+  background:transparent;
+  color: white;
+}
+.fa-google {
   background: #dd4b39;
   color: white;
 }
@@ -702,7 +397,7 @@ background-color: #1f1e1e;opacity: 0.8;
 }
 
 .fa-instagram {
-  background: #125688;
+  background: transparent;
   color: white;
 }
 
@@ -718,79 +413,128 @@ background-color: #1f1e1e;opacity: 0.8;
 }
 
 .fa-skype {
-  background: #00aff0;
+  background: transparent;
   color: white;
 }
-#section5{
-  
-  background-color: #1f1e1e ;
-  opacity: 0.7;
-  text-align: center;
-  float:left;
-  width: 100%;
-  height: auto;
+
+/* other dimensions */
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column2 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
 }
-#s-sect5{
-  font-size: 70px;
-  width: 100%;height:auto;background-color: #1f1e1e;opacity: 0.8;
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
-#section6{
-  background-color: ;
-  text-align: center;
-  float:left;
-  width: 100%;
-  height: auto;
-  font-size: 50px;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    margin: auto;
+    -ms-flex: 45%;
+    flex: 45%;
+    max-width: 45%;
+  }
 }
-#join{
-  font-size: 15px;
-}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
-  .slideshow-container {
+  .column {
+    margin: auto;
+    -ms-flex: 90%;
+    flex: 90%;
+    max-width: 90%;
+  }
+}
+
+
+
+
+
+
+
+
+                                                        /* for 1000 px*/
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+ 
+
+
+
+.nava
+  { 
+      font-size: 35px;
+      float: left;
+      padding-left:1%;
+      padding-right: 1%;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-decoration: none;
+      background-color: transparent;
+      color:#fcfcff;
+      padding-top: auto;
+      padding-bottom: auto;
+  }
+
+.nava2
+    {
+        width: auto;
+        font-size: 35px;
+        padding-right:2%;
+        padding-left: 2%;
+         padding-top: 5px;
+      padding-bottom: 5px;
+        float: right;
+        text-decoration: none;
+        background-color: transparent;
+        color:#fcfcff;
+        padding-top: auto;
+        padding-bottom:auto;
+    }
+.nava a:hover
+    {
+      background-color: #18c947;
+    }
+
+.container a:hover
+    {
+      background-color: #18c947;
+    }
+
+.slideshow-container{
+  padding-top: 8%;
   width: 90%;
   margin: auto;
-  padding-top:8%;
-}
-img {vertical-align: middle;}
-/* Hide the images by default */
-.mySlides{
-  display: none;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 10px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+.mySlides{}
 
-/* Position the "next button" to the right */
-.next {
-  right: 5%;
-  border-radius: 3px 0 0 3px;
-}
+                            
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+
 
 /* Caption text */
+
 .text {
   color: #f2f2f2;
-  font-size: 10px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom:2px;
+  font-size: 27px;
+  padding: 7px 11px;
+  position: all;
+  bottom:;
   width: 100%;
   text-align: center;
 }
@@ -798,8 +542,8 @@ img {vertical-align: middle;}
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 5px;
-  padding: 8px 12px;
+  font-size: 11px;
+  padding: 7px 11px;
   position: absolute;
   
 }
@@ -807,48 +551,593 @@ img {vertical-align: middle;}
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 0.4em;
-  width: 0.4em;
+  height: 1em;
+  width: 1em;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-}
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-.main {
- height:100%;
-}
+                            /* Position the "next button" to the right */
 
-section {
-  min-height: auto;
-}
-/*Gallery*/
-#section3{
+
+.next 
+    {
+      right: 5%;
+      top:55%;
+      border-radius: 14px 0 0 14px;
+      padding: 2%;
+      position: absolute;
+      color: white;
+      float: right;
+      transition: background-color 0.6s ease;
+      cursor: pointer;
+    }
+.prev 
+    {
+      left: 5%;
+      top: 55%;
+      border-radius: 16px 0 0 16px;
+      padding: 2%;
+      position: absolute;
+      color: white;
+      float: left;
+      transition: background-color 0.6s ease;
+      cursor: pointer;
+    }
+
+
+
+                                          /* About */
+
+
+#section2
+    {
+      font-size: 32px;
+      width: 98%;margin: auto;
+      color: #353831;
+    }
+
+#s-section2
+    {
+      font-size: 64px;
+      color: white;
+      padding-left: 2%;
+    }
+
+
+                                          /* Gallery */
+
+
+ 
+ #section3{
   background-color: white;
   height: auto;
+  width: 98%;
+  margin: auto;
+  font-size: 17px;
+
+}
+#s-sect3
+    {
+      font-size: 64px;
+      color: white;
+      padding-left: 2%;
+    }
+
+
+
+.header {
+  text-align: center;
+  padding: 28px;
+}
+
+.row {
+   background-color: white;
+   width: 98%;
+   margin: auto;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 7px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
+
+                                            /* testimonial */
+
+#testh{
+  font-size: 55px;
+  color: white;
+  padding-left: 2%;
+}
+
+ #section4{
+  background-color:#8df7f4;
+  width: 90%;
+  margin: auto;
+  color: white;
+}                                           
+.row2 {
+  width: 90%;
+  margin: auto;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column2 {
+  -ms-flex: 45%; /* IE10 */
+  flex: 45%;
+  max-width: 50%;
+  padding: 0 18px;
+  margin: auto;
+
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  margin: 50px;
+  width: 90%;
+}
+#icons{
+  border-radius:50%;
+  height: 270px;
+  width: 270px;
+  border:solid black 2px;
+}
+
+
+
+
+                                      /*  contact  */
+
+#s-sect5{
+  font-size: 64px;
+  width: 100%;height:auto;background-color: #1f1e1e;
+  color: white;
+}
+
+#section5{
+  position:relative;
+  background-color: #1f1e1e ;
+  opacity: 0.7;
+  text-align: center;
+  float:left;
+  width: 100%;
+
+  height: auto;
+}
+.cont{
+  width: 100%;
+  margin: auto;
+  height: auto;
+  font-size: 64px;
+
+}
+#sub{
+  padding-bottom: 9px;
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+
+
+                                              /* join us */
+
+
+#section6{
+  background-color:#2d2e2d ;
+  text-align: center;
+  float:left;
+  width: 100%;
+  height: auto;
+  font-size: 64px;
+}
+#us{
+  font-size: 64px;
+  color: white;
+}
+.box{
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 2%;
+  border:solid black 2px;
+}
+#hub{
+  width: 80%;
+  margin:auto;
+  border:solid black 2px;
+  font-size: 27px;
+  margin-top: 10px;
+  margin-bottom: 09px;
+}
+#h-hub{
+  width:50%;
+  margin: auto;
+  border:solid black 1px;
+  font-size: 36px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  background-color: #36e370;
+  color: red;
+}
+#join{
+  font-size: 27px;
+}
+.copy{
+  background-color: black;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+                                                  /* for mobiles */
+
+
+
+
+
+
+@media screen and (max-width: 420px)
+{
+
+.nava
+  { 
+      font-size: 10px;
+      float: left;
+      padding-left:1%;
+      padding-right: 1%;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      text-decoration: none;
+      background-color: transparent;
+      color:#fcfcff;
+      padding-top: auto;
+      padding-bottom: auto;
+  }
+
+.nava2
+    {
+        width: auto;
+        font-size: 10px;
+        padding-right:1%;
+        padding-left: 1%;
+         padding-top: 1px;
+      padding-bottom: 1px;
+        float: right;
+        text-decoration: none;
+        background-color: transparent;
+        color:#fcfcff;
+        padding-top: auto;
+        padding-bottom:auto;
+    }
+.nava a:hover
+    {
+      background-color: #18c947;
+    }
+
+.container a:hover
+    {
+      background-color: #18c947;
+    }
+
+.slideshow-container{
+  padding-top: 10%;
+  width: 90%;
+  margin: auto;
+}
+
+.mySlides{}
+
+                            
+
+
+
+/* Caption text */
+
+.text {
+  color: #f2f2f2;
+  font-size: 10px;
+  padding: 1px 3px;
+  position: all;
+  bottom:;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 3px;
+  padding: 1px 3px;
+  position: absolute;
+  
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 1em;
+  width: 1em;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+                            /* Position the "next button" to the right */
+
+
+.next 
+    {
+      right: 5%;
+      top:55%;
+      border-radius: 4px 0 0 4px;
+      padding: 2%;
+      position: absolute;
+      color: white;
+      float: right;
+      transition: background-color 0.6s ease;
+      cursor: pointer;
+    }
+.prev 
+    {
+      left: 5%;
+      top: 55%;
+      border-radius: 4px 0 0 4px;
+      padding: 2%;
+      position: absolute;
+      color: white;
+      float: left;
+      transition: background-color 0.6s ease;
+      cursor: pointer;
+    }
+
+
+
+                                          /* About */
+
+
+#section2
+    {
+      font-size: 11px;
+      width: 98%;margin: auto;
+      color: #353831;
+    }
+
+#s-section2
+    {
+      font-size: 20px;
+      color: white;
+      padding-left: 2%;
+    }
+p{
+  width: 95%;
+  margin: auto;
+}
+
+
+                                          /* Gallery */
+
+
+ 
+ #section3{
+  background-color: white;
+  height: auto;
+  width: 98%;
+  margin: auto;
+  font-size: 6px;
+
+}
+#s-sect3
+    {
+      font-size: 20px;
+      color: white;
+      padding-left: 2%;
+    }
+
+
+
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+.row {
+   background-color: white;
+   width: 98%;
+   margin: auto;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 1px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 45%;
+  padding: 0 1px;
+}
+
+.column img {
+  margin-top: 2px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
+
+                                            /* testimonial */
+
+#testh{
+  font-size: 18px;
+  color: white;
+}
+
+ #section4{
+  background-color:#1b5b7d;
+  width: 80%;
+  margin: auto;
+  color: white;
+}                                           
+.row2 {
+  width: 90%;
+  margin: auto;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 1px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column2 {
+  -ms-flex: 45%; /* IE10 */
+  flex: 45%;
+  max-width: 45%;
+  padding: 0 2px;
+  margin: auto;
+
+}
+
+.column2 img {
+  margin-top: 2px;
+  vertical-align: middle;
+  margin: 16px;
+  width: 90%;
+}
+#icons{
+  border-radius:50%;
+  height: 70px;   
+  width: 70px;
+  border:solid black 1px;
+}
+
+
+
+
+                                      /*  contact  */
+
+#s-sect5{
+  font-size: 20px;
+  width: 100%;height:auto;background-color: #1f1e1e;
+  color: white;
+}
+
+#section5{
+  position:relative;
+  background-color: #1f1e1e ;
+  opacity: 0.7;
+  text-align: center;
+  float:left;
+  width: 100%;
+
+  height: auto;
+}
+.cont{
+  width: 100%;
+  margin: auto;
+  height: auto;
   font-size: 20px;
 
 }
-#section4{
-  background-color: transparent;
+#sub{
+  padding-bottom: 3px;
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+
+
+                                              /* join us */
+
+
+#section6{
+  background-color:#2d2e2d ;
+  text-align: center;
+  float:left;
+  width: 100%;
   height: auto;
   font-size: 20px;
 }
-@media screen and (max-width: 800px) {
-#section3{
-   background-color: white;
-  height: auto;
-  font-size: 10px;
+#us{
+  font-size: 20px;
+  color: white;
 }
-#section4{
-  background-color: transparent;
-  height: auto;
-  font-size: 10px;
+.box{
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 2%;
+  border:solid black 1px;
 }
+#hub{
+  width: 80%;
+  margin:auto;
+  border:solid black 1px;
+  font-size: 8px;
+  margin-top: 3px;
+  margin-bottom: 2px;
 }
+#h-hub{
+  width:50%;
+  margin: auto;
+  border:solid black 1px;
+  font-size: 11px;
+  margin-top:2px;
+  margin-bottom: 2px;
+  background-color: #36e370;
+  color: red;
+}
+#join{
+  font-size: 8px;
+}
+.copy{
+  background-color: black;
+}
+
+}
+
+
+
