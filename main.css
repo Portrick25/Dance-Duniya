@@ -1503,8 +1503,8 @@ body{
       float: left;
       padding-left:1%;
       padding-right: 1%;
-      padding-top: 5px;
-      padding-bottom: 5px;
+      padding-top: 15px;
+      padding-bottom: 15px;
       text-decoration: none;
       background-color: transparent;
       color:#fcfcff;
@@ -1518,8 +1518,8 @@ body{
         font-size: 12px;
         padding-right:1%;
         padding-left: 1%;
-         padding-top: 5px;
-      padding-bottom: 5px;
+         padding-top: 15px;
+      padding-bottom: 15px;
         float: right;
         text-decoration: none;
         background-color: transparent;
@@ -1538,7 +1538,7 @@ body{
     }
 
 .slideshow-container{
-  padding-top: 10%;
+  padding-top: 13%;
   width: 90%;
   margin: auto;
 }
