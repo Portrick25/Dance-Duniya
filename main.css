@@ -1496,7 +1496,9 @@ body{
 
 @media screen and (max-width: 420px)
 {
-
+.fa-home{
+  font-size:18px;
+  }
 .nava
   { 
       font-size: 12px;
@@ -1538,7 +1540,7 @@ body{
     }
 
 .slideshow-container{
-  padding-top: 13%;
+  padding-top: 15%;
   width: 90%;
   margin: auto;
 }
