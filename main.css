@@ -1782,6 +1782,7 @@ body{
 #filter{
     -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
     filter: blur(1px);
+    height:200%;
 }
 
 .welcome{
@@ -1802,7 +1803,7 @@ body{
 
 .start{
   position: absolute;
-  top:25% ;
+  top:30% ;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1825,7 +1826,7 @@ body{
 
 .subwelcome{ 
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
