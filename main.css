@@ -2,6 +2,7 @@ html{
   background-color: #022626
 }
 body{
+  heihgt:100vh;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
@@ -1802,7 +1803,7 @@ body{
 
 .start{
   position: absolute;
-  top:30% ;
+  top:32% ;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1819,7 +1820,7 @@ body{
 }
 
 #go{
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom:20px;
   font-size: 25px;
 }
