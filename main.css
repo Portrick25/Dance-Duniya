@@ -1804,7 +1804,7 @@ body{
   top:70% ;
   left: 50%;
   width:96%;
-  height:20%
+  height:20%;
   transform: translate(-50%, -50%);
 }
 
@@ -1822,7 +1822,7 @@ body{
 #go{
   padding-top: 1%;
   padding-bottom:1%;
-  font-size: 1%;
+  font-size: 2em;
 }
 
 .subwelcome{ 
