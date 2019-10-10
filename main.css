@@ -1800,11 +1800,12 @@ body{
 }
 
 .start{
+  text-align:center;
   position: absolute;
   top:80% ;
   left: 50%;
   width:96%;
-  margin:auto
+  margin:auto;
   transform: translate(-50%, -50%);
 }
 
@@ -1905,7 +1906,7 @@ body{
 .next 
     {
       right: 5%;
-      top:25%;
+      top:;
       border-radius: 4px 0 0 4px;
       padding: 2%;
       position: relative;
@@ -1918,7 +1919,7 @@ body{
 .prev 
     {
       left: 5%;
-      top: 25%;
+      top:;
       border-radius: 4px 0 0 4px;
       padding: 2%;
       position: relative;
